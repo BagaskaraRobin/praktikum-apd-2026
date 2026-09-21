@@ -13,7 +13,7 @@ jpy = 114
 
 total_jpy = total_pengeluaran / jpy
 
-print("total pengeluaran:" + str(total_pengeluaran))
+print("total pengeluaran(IDR):" + str(total_pengeluaran))
 print("total pengeluaran(Yen):" + str(total_jpy))
 
 
