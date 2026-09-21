@@ -9,10 +9,22 @@ skincare_6 = 70000
 
 total_pengeluaran = skincare_1 + skincare_2 + skincare_3 + skincare_4 + skincare_5 + skincare_6
 
-print(total_pengeluaran)
+jpy = 114
 
-harga = [35000, 42000, 50000, 55000, 68000, 70000]
+total_jpy = total_pengeluaran / jpy
 
-rata_rata_harga = total_pengeluaran / len(harga)
+print("total pengeluaran:" + str(total_pengeluaran))
+print("total pengeluaran(Yen):" + str(total_jpy))
 
-print(rata_rata_harga)
+
+harga_skincare = [35000, 42000, 50000, 55000, 68000, 70000]
+
+rata_rata = total_pengeluaran / len(harga_skincare)
+
+print("rata-rata harga skincare:" + str(rata_rata))
+print("harga skincare 3-5:" + str(harga_skincare[-4:-1]))
+
+nim = 68
+
+bolean = nim < rata_rata
+print(bolean)
