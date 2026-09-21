@@ -13,18 +13,16 @@ jpy = 114
 
 total_jpy = total_pengeluaran / jpy
 
-print("total pengeluaran(IDR):" + str(total_pengeluaran))
-print("total pengeluaran(Yen):" + str(total_jpy))
-
-
 harga_skincare = [35000, 42000, 50000, 55000, 68000, 70000]
 
 rata_rata = total_pengeluaran / len(harga_skincare)
 
-print("rata-rata harga skincare:" + str(rata_rata))
-print("harga skincare 3-5:" + str(harga_skincare[-4:-1]))
-
 nim = 68
 
 bolean = nim < rata_rata
+
+print("total pengeluaran(IDR):", total_pengeluaran)
+print("total pengeluaran(Yen):", total_jpy)
+print("rata-rata harga skincare:", rata_rata)
+print("harga skincare 3-5:", harga_skincare[-4:-1])
 print(bolean)
