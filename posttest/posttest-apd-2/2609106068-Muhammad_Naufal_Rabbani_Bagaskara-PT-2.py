@@ -6,8 +6,9 @@ skincare_3 = 50000
 skincare_4 = 55000
 skincare_5 = 68000
 skincare_6 = 70000
+ongkos = 12000
 
-total_pengeluaran = skincare_1 + skincare_2 + skincare_3 + skincare_4 + skincare_5 + skincare_6
+total_pengeluaran = skincare_1 + skincare_2 + skincare_3 + skincare_4 + skincare_5 + skincare_6 + ongkos
 
 jpy = 114
 
