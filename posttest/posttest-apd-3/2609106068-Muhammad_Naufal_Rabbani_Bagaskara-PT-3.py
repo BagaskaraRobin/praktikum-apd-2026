@@ -1,13 +1,13 @@
 # program login 
 
 nama = "robin"
-sandi = "68"
+nim = "68"
 
 username = input("Masukkan username: ").lower().strip()
 password = input("Masukkan password: ").lower().strip()
 
 if username == nama:
-    if password == sandi:
+    if password == nim:
         print("login berhasil, selamat datang", nama)
     else:
         print("username atau password salah")
