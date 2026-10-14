@@ -50,3 +50,12 @@ while saku > 0:
     pengeluaran = int(input("Mau keluar berapa uang anda?:"))
     sisa = saku - pengeluaran
     print("sisa saku anda: ", sisa)
+
+N = 5
+
+for i in range(1, N + 1):
+    for j in range(N - i):
+        print(" ", end="")
+    for k in range(i):
+        print("*", end="")
+    print()
