@@ -68,7 +68,7 @@ def input_angka(pesan, minimal, maksi):
             teks = input(pesan).strip()
             if teks == "":
                 return None
-            angka = int(teks) 
+            angka = int(teks)
             if angka < minimal or angka > maksi:
                 raise ValueError("di luar rentang")
             return angka
